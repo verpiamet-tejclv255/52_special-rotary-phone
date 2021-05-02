@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="favicon.ico">
+    <title>Lonelyday</title>
+    <link rel="stylesheet" href="templates/sandstone.min.css">
+    <link href="templates/narrow-jumbotron.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <style>
+ body {font-family: 'Ubuntu Condensed', serif;}
+	.pngflag {height: 16px; border: 1px solid #C0C0C0;}
+/* Colors */
+
+.accent-text {
+    color: #FF4081 !important;
+}
+.accent-color {
+    background-color: #FF4081 !important;
+}
+.accent-border {
+    border-color: #FF4081 !important;
+}
+.primary-text {
+    color: #2196F3 !important;
+}
+.primary-color {
+    background-color: #2196F3 !important;
+}
+.primary-border {
+    border-color: #2196F3 !important;
+}
+.grey-blue {
+    background-color: #f1f4f5;
+}
+.text-color {
+    color: #76838f !important;
+}
+.text-light {
+    font-weight: 400;
+    color: #B2B2B4;
+}
+.transparent {
+    background-color: transparent !important;
+}
+.no-shadow {
+    box-shadow: none;
+	
+.finished-text {
+    color: #2196F3 !important;
+}
+.finished-color {
+    background-color: #2196F3 !important;
+}
+.finished-border {
+    border-color: #2196F3 !important;
+}
+	</style>
+	
+		  </head>
+
+  <body background="templates/4ad78aed2f667723f7c4d6366b279af8.jpeg">
+    <div class="container x2qAE7">
+
+      <main role="main">
+
+        <div class="jumbotron aBgH1An">
+        <span id="index">
+          <p class="lead"><a href=""></a></p>
+		</span>
+  
+		  <div class="row">
+
+                <div class="col s12 center-align animated fadein delay-1">			
+                  <span id="q1">
+					  <h1 class="title white-text">¿Practicas deportes?</h1><br />
+                  <center><img src="templates/4ad78aed2f667723f7c4d6366b279af8.jpeg" width="100%" /></center><br />                  </span>
+<span style="display:none;" id="q2">
+<h1 class="title white-text">¿Con qué frecuencia?</h1><br />
+<center><img src="templates/4ad78aed2f667723f7c4d6366b279af8.jpeg" width="100%" /></center><br />Определяем белее подходящий для Вас курс!</span>
+<script>var MAXNUM = 2;</script>	
+<span style="display:none;" id="q3">
+<h1 class="title white-text">¿Qué tipo de deporte prefieres?</h1><br />
+<center><img src="templates/4ad78aed2f667723f7c4d6366b279af8.jpeg" width="100%" /></center><br /></span>
+<script>var MAXNUM = 3;</script>	
+                  
+                  <span style="display:none;" id="fin">
+				  <h1 class="display-3">Lonelyday</h1>
+				  <p class="title white-text">
+				   <a href="" ><img src="templates/4ad78aed2f667723f7c4d6366b279af8.jpeg" width="50%"></a>
+				  <br /><br />
+				  				  <br />
+				  </p>
+				  <h3></h3>
+				  </span>
+				  
+            </div>     </div><br />
+
+
+                <div class="col s12 center-align p-20 animated fadeinup delay-2 tu1hpyi4E">
+                 
+               
+                  <div class="input-field animated fadein delay-4" id="genbtn1">
+                  
+                    <a href="#" onclick="gen(true)" class="waves-effect waves-light btn primary-color">SÍ</a>
+                    <a href="#" onclick="gen(false)" class="waves-effect waves-light btn accent-color">NO</a>
+
+                  </div>
+<div class="input-field animated fadein delay-4" style="display:none;" id="genbtn2">
+<a href="#" onclick="gen(true)"  class="btn btn-primary">Una vez por semana</a>
+<a href="#" onclick="gen(false)"  class="btn btn-primary">3 veces a la semana</a>
+</div>
+<div class="input-field animated fadein delay-4" style="display:none;" id="genbtn3">
+<a href="#" onclick="gen(true)"  class="btn btn-primary">Correr</a>
+<a href="#" onclick="gen(false)"  class="btn btn-primary">Natación</a>
+</div>
+                  <div class="input-field animated fadein delay-4" style="display:none;" id="finbtn">
+                   <a href="" class="btn btn-primary"></a></a>
+                  </div>
+                </div>
+    
+        </div>
+</main>
+</div>
+	
+<script>
+var NUM = 1;
+function gen(val){
+NUM += 1;
+document.getElementById("q1").style.display = "none";
+document.getElementById("genbtn1").style.display = "none";
+document.getElementById("q2").style.display = "none";
+document.getElementById("genbtn2").style.display = "none";
+document.getElementById("q3").style.display = "none";
+document.getElementById("genbtn3").style.display = "none";
+if (NUM <= MAXNUM) {
+document.getElementById("q"+NUM).style.display = "block";
+document.getElementById("genbtn"+NUM).style.display = "block";
+} else {
+document.getElementById("fin").style.display = "block";
+document.getElementById("finbtn").style.display = "block";
+}
+}
+</script>
+
+
+
+<p align="center"></p>
+<p align="center"><a href="privacy-policy.html">Privacy policy</a> | <a href="terms.html">Terms and Conditions</a></p>
+    </div> <!-- /container -->
+
+  </body>
+</html>
